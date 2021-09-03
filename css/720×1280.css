@@ -1,0 +1,159 @@
+.Page{
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  overflow: hidden;
+  background-image: url('../img/bg.png');
+}
+.icon{
+  margin-top: 28px;
+  margin-left: 23px;
+}
+.shop{
+  position: relative;
+}
+.discountRate{
+  width: 65px;
+  line-height: 33px;  
+  position: absolute;
+  right: 11.5%;
+  top: 10%;
+  text-align: center;
+  color: white;
+  font-weight: 800;
+  font-size: 20px;
+  background-color: rgb(235, 135, 51);  
+}
+.discountRate::before{
+  content: "";
+  position: absolute;  
+  width: 0;
+  height: 0;
+  left: -16px;
+  border-top: 16.5px solid transparent;
+  border-right: 16.5px solid rgb(235, 135, 51); 
+  border-bottom: 16.5px solid transparent;
+}
+.shop img{
+  width: 558px;
+  height: 446px;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 40px;
+  border: 4px solid white;
+  box-shadow: 0 0 68px rgba(255, 210,0,.7);
+  display: block;
+}
+.icon2 img{
+  margin-top: 28px;
+  margin-left:auto;
+  margin-right: auto;
+  display: block;
+}
+.introduction{
+  margin-top: 15px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 150%;
+  color: rgb(249, 190, 208);
+  text-align: center;
+}
+.price{
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 24px;
+}
+.price .originPrice{
+  color: rgb(255, 234, 0);
+  margin-left: 74px;
+  font-size: 60px;
+  font-weight: 700;
+  position: relative;
+}
+.price .originPrice::before{
+  content: "";
+  display: block;
+  border-bottom: 6px solid rgb(255, 234, 0);
+  position: absolute;
+  width: 291px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.price .discount span{
+  color: red;
+  position: absolute; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%); 
+  margin-left: 22%;
+  font-size: 50px;
+  font-weight: 700;
+}
+.bt{
+  margin-top: 42px;
+}
+.bt .timer{
+  display: flex;
+  align-items: center;
+  margin-left: 18px;
+  justify-content: center;
+}
+.bt .timer .points{
+  padding: 8px;
+  color: white;
+  font-size: 35px;
+  font-weight: 700;
+}
+.bt .timer .squ{
+  background-color: white;
+  position: relative;
+  border-radius: 10px;
+  width: 65px;
+  height: 65px;
+}
+.bt .timer .squ span{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: red;
+  font-size: 30px;
+  font-weight: 600;
+}
+.bt .timer .rec{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 65px;
+  width: 135px;
+  border-radius: 10px;
+}
+.bt .timer .rec span{
+  color: red;
+  font-size: 32px;
+  font-weight: 600;
+}
+.bt .timer .rec span:nth-child(2){
+  padding: 5px;
+}
+.txt{
+  background-image: url("../img/bg1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 35px;
+  margin-top: 61px;
+  text-align: center;
+}
+html,body{
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}

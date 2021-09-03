@@ -1,0 +1,139 @@
+
+@font-face {
+  font-family: 'ArivNdrPOMt';
+  src: url('ArivNdrPOMt.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+	font-family: helvetica neue, Helvetica, Arial, sans-serif;
+}
+.head{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 50%;
+	background: url('../img/1.jpg');
+	filter: blur(40px);
+}
+.bgImg{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 50%;
+}
+.bgImg img{
+	width: 100%;
+	height: 23vh;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	border-radius: 1vh;
+}
+.app-info{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 50%;
+	transform: translateY(-20%);
+}
+.appName{
+	/* margin-top: 200px; */
+	text-align: center;
+	font-size: 4vh;
+	font-weight: 700;
+	margin-top: 6vh;
+	padding: 0 20px;
+	white-space: nowrap;
+	text-overflow:ellipsis; 
+	overflow:hidden;
+}
+.icon img{
+	display: block;
+	width: 12vh;
+	height: 12vh;
+	margin: auto;
+	border-radius: 1vh;
+}
+.foot{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 6vh;
+}
+.star{
+	position: relative;
+	overflow: hidden;
+	margin: 3vh auto 0;
+	width: 25vh;
+	height: 4vh;
+}
+.appStar{
+	width: 25vh;
+	height: 4vh;
+	background: url('../img/lALPBGnDcx-g67kqzQEN_269_42.png') no-repeat top left;
+	background-size: 25vh 4vh;
+}
+.appStarNum{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 92%;
+	height: 4vh;
+	background: url('../img/lALPBG1Q8cRrSfsqzQEN_269_42.png') no-repeat top left;
+	background-size: 25vh 4vh;
+}
+.appScore{
+	color: #c0c0c0;
+	text-align: center;
+	font-size: 3vh;
+	margin-top: 10px;
+}
+.appScore .iconfont{
+	width: 3vh;
+	height: 3vh;
+	margin:0 10px;
+	vertical-align: middle;
+}
+.appScore .number{
+	margin-right: 10px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.download{
+	margin: 17% auto 0;
+	width: 73%;
+	height: 6vh;
+	border-radius: 1vh;
+	text-align: center;
+	line-height: 6vh;
+	font-size: 2vh;
+	color: #fff;
+	background-image: linear-gradient(33deg,#91c31e,#27ae5f);
+}
+.apartment{
+	margin-top: 3%;
+	text-align: center;
+	font-size: 0px;
+	color: #c0c0c0;
+	display: none;
+}
+
+.apartment img{
+	width: 4vh;
+	height: 1vh;
+}
+
+.app{
+	display: none;
+}
+
+html,body{
+	overflow: hidden;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}

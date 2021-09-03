@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'ArivNdrPOMt';
+  src: url('ArivNdrPOMt.svg#ArivNdrPOMt') format('svg'),
+       url('ArivNdrPOMt.ttf') format('truetype'),
+       url('ArivNdrPOMt.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ArivndrPomt-pMLD';
+  src: url('ArivndrPomt-pMLD.eot');
+  src: url('ArivndrPomt-pMLD.eot?#iefix') format('embedded-opentype'),
+       url('ArivndrPomt-pMLD.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
